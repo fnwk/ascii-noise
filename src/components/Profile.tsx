@@ -15,7 +15,7 @@ const Profile = () => {
     <ProfileStyled>
       <Nick />
       <div className="btnContainer">
-        <Button text="Github" char="{" click={GithubHandler} />
+        <Button text="Github" char="}" click={GithubHandler} />
         <Button text="Contact" char="@" click={ContactHandler} />
       </div>
     </ProfileStyled>
@@ -34,8 +34,15 @@ const ProfileStyled = styled.div`
   z-index: 100;
 
   .btnContainer {
-    margin-block: 50px;
     display: flex;
+    width: fit-content;
+    flex-direction: column;
     justify-content: space-around;
+    margin: 50px auto;
+
+    @media only screen and (min-width: 600px) {
+      flex-direction: row;
+      width: 100%;
+    }
   }
 `;

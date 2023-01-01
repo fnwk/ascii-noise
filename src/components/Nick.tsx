@@ -37,8 +37,10 @@ const Nick = () => {
 };
 
 const NickStyled = styled.div`
+  text-align: center;
+
   p {
-    font-size: 8px;
+    font-size: 1vmin;
     font-weight: 900;
     color: white;
   }
