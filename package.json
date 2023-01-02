@@ -12,14 +12,12 @@
     "@react-three/fiber": "^8.9.1",
     "@types/react-router": "^5.1.20",
     "@types/styled-components": "^5.1.26",
-    "@types/three": "^0.146.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.6.1",
     "react-router-dom": "^6.6.1",
     "simplex-noise": "^4.0.1",
-    "styled-components": "^5.3.6",
-    "three": "^0.148.0"
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/react-dom": "^18.0.10",
